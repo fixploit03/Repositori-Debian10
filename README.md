@@ -11,13 +11,13 @@ Cara Memperbaiki Repositori Debain 10
 2. Backup terlebih dahulu repositori default debiannya:
 
    ```
-   cp /etc/apt/sources.lsit /etc/apt-sources.list.back
+   cp /etc/apt/sources.list /etc/apt/sources.list.back
    ```
    
 3. Ganti repositorinya:
 
    ```
-   cat sources.list > /etc/apt/sources.lsit
+   cat sources.list > /etc/apt/sources.list
    ```
 
 4. Tambahkan kunci GPG jika terjadi error:
